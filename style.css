@@ -533,6 +533,7 @@ body {
     background-size: cover;
     background-color: #1e252b;
     border: none;
+    cursor: pointer;
     border-radius: 8px;
 }
 .popular_container--content:hover .popular_container--content--react--manipulation--heart {
@@ -588,6 +589,7 @@ body {
     padding-left: 38px;
     border-radius: 8px;
     margin-bottom: 200px;
+    cursor: pointer;
 }
 .trusted {
     background-image: url(img/Rectangle\ 308.png);
@@ -898,13 +900,46 @@ body {
     margin-bottom: 250px;
 }
 .team_member {
-    background-image: url(img/richardsronald.png);
+    background-image: url(img/richards.png);
     background-repeat: no-repeat;
     background-size: cover;
     color:#1e252b;
     width: 100%;
     max-width: 399px;
     height: 492px;
+}
+.team_member--container {
+    backdrop-filter: blur(15px);
+    width: 100%;
+    max-width: 265px;
+    margin-top: 372px;
+    margin-right: 4px;
+    margin-bottom: 29px;
+    margin-left: 130px;
+    height: 91px;
+    border-radius: 8px;
+}
+.team_member--container--title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 1.5%;
+    color:#FFFDFDC7;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    padding-right: 22px;
+    padding-left: 23px;
+}
+.team_member--container--desc {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#FFFDFD8C;
+    padding-bottom: 16px;
+    padding-left: 23px;
 }
 .team_speech {
     background-image: url(img/apostrophes1.png);
