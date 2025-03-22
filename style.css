@@ -811,15 +811,6 @@ body {
     align-items: center;
 }
 .tools_container--content--react--manipulation--heart {
-    /* background: url(img/greyheart1.svg);
-    width: 42px;
-    height: 42px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1e252b;
-    border: none;
-    border-radius: 8px;
-    padding: 7px 7px 7px 7px; */
     background: url(img/like.png);
     width: 35px;
     height: 35px;
@@ -842,6 +833,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
 }
+
 .tools_container--content:hover .tools_container--content--react--manipulation--heart {
     background-color: #28303699;
 }
